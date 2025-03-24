@@ -1,0 +1,23 @@
+{
+  "compilerOptions": { 
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    // "moduleResolution": "nodenext"
+    "moduleResolution": "bundler",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+
+
+    // "paths": {
+    //   "@chakra-ui/react": ["node_modules/@chakra-ui/react"]
+    // }
+  },
+  "include": ["src"]
+}
